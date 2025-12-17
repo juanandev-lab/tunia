@@ -1,14 +1,15 @@
-# Nombre del Proyecto
+# Turnia
 
-Breve descripción del proyecto. Explica qué problema resuelve y para quién está pensado.
+Turnia es una aplicación pensada para la gestión de citas y clientes. El objetivo son jóvenes autónomos que acaban de empezar y no quieren gastar mucho dinero en una
+gran aplicación. Para ello, una de las máximas es que sea simple, secilla y práctica.
 
 ---
 
 ## 🧠 Idea y objetivo
 
-* **Problema:** ¿Qué problema detectaste?
-* **Solución:** ¿Cómo lo soluciona este proyecto?
-* **Usuario objetivo:** ¿Quién lo usaría?
+* **Problema:** Algunos jóvenes que abren pequeños negocios (peluqueros, estilistas, tatuadores...) no usan una agenda online por ser, caras o complejas.
+* **Solución:** Una aplicación que les permita gestionar su tiempo de forma simple y económica es justo lo que buscan.
+* **Usuario objetivo:** Autónomos de pequeña empresa jóvenes que quieren empezar a trabajar por su cuenta.
 
 ---
 
@@ -16,15 +17,15 @@ Breve descripción del proyecto. Explica qué problema resuelve y para quién es
 
 ### Backend
 
-* Lenguaje:
-* Framework:
-* Base de datos:
+* Lenguaje: Python
+* Framework: Django, Django Rest Framework
+* Base de datos: PostgreSQL
 * Autenticación:
 * Otras herramientas:
 
 ### Frontend (si aplica)
 
-* Framework:
+* Framework: React
 * Librerías principales:
 
 ---
@@ -39,11 +40,18 @@ project-root/
 │   ├── requirements.txt
 │   └── manage.py
 ├── frontend/
-├── docs/
 └── README.md
 ```
 
-Explica brevemente qué hace cada carpeta importante.
+- **backend/**: Contiene la lógica del servidor, la API y la gestión de datos.
+  - **apps/**: Aplicaciones Django que encapsulan la lógica de negocio del proyecto.
+  - **config/**: Configuración global del proyecto (settings, urls, wsgi/asgi).
+  - **requirements.txt**: Dependencias del backend.
+  - **manage.py**: Punto de entrada para comandos de Django.
+
+- **frontend/**: Aplicación cliente desarrollada en React. Gestiona la interfaz de usuario y la comunicación con la API.
+
+- **README.md**: Documento principal con la descripción, instalación y uso del proyecto.
 
 ---
 
@@ -115,7 +123,9 @@ pytest
 
 Describe aquí decisiones importantes:
 
-* Por qué elegiste este framework
+* Por qué elegiste este framework:
+
+    He elegido Django porque me parece el framework más versátil para empezar una aplicación simple y luego poder ir escalándola.
 * Patrones usados (MVC, Clean Architecture, etc.)
 * Problemas encontrados y soluciones
 
@@ -143,9 +153,9 @@ Qué has aprendido desarrollando este proyecto.
 
 ## 👤 Autor
 
-* Nombre:
-* GitHub:
-* LinkedIn:
+* Nombre: Juan A. Santa León
+* GitHub: https://github.com/juanandev-lab/tunia.git
+* LinkedIn: www.linkedin.com/in/juan-antonio-santa-león-29392b346
 
 ---
 
