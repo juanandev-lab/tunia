@@ -37,6 +37,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Apps propias
+    'apps.core',
+    'apps.accounts',
+    'apps.business',
+    'apps.services',
+    'apps.bookings',
+    
 ]
 
 MIDDLEWARE = [
@@ -115,3 +123,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
+# Sobreescribimos el modelo User por defecto de Django con el modelo personalizado.
+AUTH_USER_MODEL = "accounts.User"

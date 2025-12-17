@@ -1,7 +1,8 @@
 # Turnia
 
-Turnia es una aplicación pensada para la gestión de citas y clientes. El objetivo son jóvenes autónomos que acaban de empezar y no quieren gastar mucho dinero en una
-gran aplicación. Para ello, una de las máximas es que sea simple, secilla y práctica.
+Turnia es una aplicación pensada para la gestión de citas y clientes. El objetivo son jóvenes autónomos que acaban de empezar y no quieren gastar mucho dinero en una gran aplicación. 
+
+Para ello, una de las máximas es que sea simple, secilla y práctica.
 
 ---
 
