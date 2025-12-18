@@ -7,4 +7,8 @@ class User(AbstractUser):
     Usuario base del sistema.
     En la MVP representa a un autónomo propietario de su negocio.
     """
+    username = None
     email = models.EmailField(unique=True)
+
+    USERNAME_FIELD = "email"
+    REQUIRED_FIELDS = []
